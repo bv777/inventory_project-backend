@@ -58,7 +58,6 @@ Request:
          "name":"STRING",
          "unitPrice":"NUMBER",
          "quantity":"NUMBER",
-         "inventoryValue":"NUMBER",
          "minimalSupply":"NUMBER"
   }
 }
@@ -80,7 +79,6 @@ Request:
          "name":"STRING",
          "unitPrice":"NUMBER",
          "quantity":"NUMBER",
-         "inventoryValue":"NUMBER",
          "minimalSupply":"NUMBER"
   }
 }

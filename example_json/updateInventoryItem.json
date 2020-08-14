@@ -1,0 +1,9 @@
+{
+    "data": {
+        "inventoryID": 1,
+        "name": "Beef Empanadas",
+        "unitPrice": 3.50,
+        "quantity": 145,
+        "minimalSupply": 48
+    }
+}
