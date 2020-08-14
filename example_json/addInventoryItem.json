@@ -1,0 +1,8 @@
+{
+    "data": {
+        "name": "Pizza Empanada",
+        "unitPrice": 3,
+        "quantity": 25,
+        "minimalSupply": 20
+    }
+}

@@ -1,0 +1,108 @@
+{
+   "data": [
+      {
+         "inventoryID": 1,
+         "name": "Beef Empanadas",
+         "unitPrice": 3.0,
+         "quantity": 118,
+         "inventoryValue": 354.0,
+         "minimalSupply": 48
+      },
+      {
+         "inventoryID": 2,
+         "name": "Chicken Empanadas",
+         "unitPrice": 3.0,
+         "quantity": 81,
+         "inventoryValue": 243.0,
+         "minimalSupply": 48
+      },
+      {
+         "inventoryID": 3,
+         "name": "Veggie Empanadas",
+         "unitPrice": 3.0,
+         "quantity": 36,
+         "inventoryValue": 108.0,
+         "minimalSupply": 36
+      },
+      {
+         "inventoryID": 4,
+         "name": "Ham & Cheese  Empanadas",
+         "unitPrice": 3.0,
+         "quantity": 94,
+         "inventoryValue": 282.0,
+         "minimalSupply": 36
+      },
+      {
+         "inventoryID": 5,
+         "name": "Guava & Cheese  Empanadas",
+         "unitPrice": 1.0,
+         "quantity": 20,
+         "inventoryValue": 20.0,
+         "minimalSupply": 24
+      },
+      {
+         "inventoryID": 6,
+         "name": "Dulce de Leche Empanadas",
+         "unitPrice": 1.0,
+         "quantity": 36,
+         "inventoryValue": 36.0,
+         "minimalSupply": 24
+      },
+      {
+         "inventoryID": 7,
+         "name": "Breakfast Empanadas",
+         "unitPrice": 3.0,
+         "quantity": 94,
+         "inventoryValue": 282.0,
+         "minimalSupply": 36
+      },
+      {
+         "inventoryID": 8,
+         "name": "Chimichurri",
+         "unitPrice": 0.5,
+         "quantity": 39,
+         "inventoryValue": 19.5,
+         "minimalSupply": 15
+      },
+      {
+         "inventoryID": 9,
+         "name": "Salsa Verde ",
+         "unitPrice": 0.5,
+         "quantity": 0,
+         "inventoryValue": 0.0,
+         "minimalSupply": 15
+      },
+      {
+         "inventoryID": 10,
+         "name": "Salsa Verde Bulk Orders",
+         "unitPrice": 0.0,
+         "quantity": 0,
+         "inventoryValue": 0.0,
+         "minimalSupply": 0
+      },
+      {
+         "inventoryID": 11,
+         "name": "Beef Empanadas - No Onion",
+         "unitPrice": 3.0,
+         "quantity": 12,
+         "inventoryValue": 36.0,
+         "minimalSupply": 0
+      },
+      {
+         "inventoryID": 12,
+         "name": "Chicken Empanadas - No Onion",
+         "unitPrice": 3.0,
+         "quantity": 12,
+         "inventoryValue": 36.0,
+         "minimalSupply": 0
+      },
+      {
+         "inventoryID": 13,
+         "name": "Breakfast Empanadas - No Onion",
+         "unitPrice": 3.0,
+         "quantity": 12,
+         "inventoryValue": 36.0,
+         "minimalSupply": 0
+      }
+   ]
+}
