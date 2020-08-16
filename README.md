@@ -1,5 +1,18 @@
 # Inventory Project Backend
 
+## Install Django
+
+`pip install Django`
+
+## Startup
+
+```bash
+cd inventory_project
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
+```
+
 ## Tables to Implement
 
 ### Current Inventory Table
@@ -25,7 +38,7 @@ Holds information on each edit to the tables. (**may be changed later**)
 ### Inventory Managment
 
 #### `GET` Current Inventory
-**/api/currentInventory?user=<USER_NAME>**
+**/api/inventoryManagment/currentInventory?user=<USER_NAME>**
 
 **TODO** - switch to some sort of OAuth implementation later on
 
@@ -47,7 +60,7 @@ Response:
 ```
 
 #### `POST` Add Inventory Item
-**/api/addInventoryItem?user=<USER_NAME>**
+**/api/inventoryManagment/addInventoryItem?user=<USER_NAME>**
 
 **TODO** - switch to some sort of OAuth implementation later on
 
@@ -67,7 +80,7 @@ Response:
 `HTTP: 200` OR `HTTP: 400`
 
 #### `PUT` Update Inventory Item
-**/api/updateInventoryItem?user=<USER_NAME>**
+**/api/inventoryManagment/updateInventoryItem?user=<USER_NAME>**
 
 **TODO** - switch to some sort of OAuth implementation later on
 
