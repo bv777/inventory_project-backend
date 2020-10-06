@@ -29,7 +29,7 @@ class ProductionLog(models.Model):
     def to_dict(self):
         data = {
             'dateTime': self.date_time,
-            'inventoryID': self.inventory_item,
+            'inventoryID': self.inventory_item.inventoryID,
             'productionID': self.productionID,
             'quantity': self.quantity
         }

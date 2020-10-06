@@ -60,6 +60,15 @@ def update_inventory_item(request):
         logger.error(e)
         return HttpResponse(e, status=http.HTTPStatus.BAD_REQUEST)
 
+def get_produced_items(request):
+    logger.info(f'get_produced_items(): called with request={request}')
+    if request.method != 'GET':
+        return HttpResponse(status=http.HTTPStatus.METHOD_NOT_ALLOWED)
+    
+    produced = list(map(lambda x: x.to_dict(), ProductionLog.objects.all()))
+    produced.reverse()
+    return JsonResponse({'data': produced}, safe=False)
+
 def produce_item(request):
     logger.info(f'produce_item(): called with request={request}')
     if request.method != 'POST':
