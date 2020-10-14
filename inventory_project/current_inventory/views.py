@@ -79,7 +79,7 @@ def produce_item(request):
         data = json.loads(request.body)['data']
         logger.debug(f"data={data}")
         inventoryID = int(data['inventoryID'])
-        item = CurrentInventory.objects.get(pk=1)
+        item = CurrentInventory.objects.get(pk=inventoryID)
         quantity = float(data['quantity'])
         item.quantity = round(float(item.quantity) + quantity, 2)
         produced = item.productionlog_set.create(quantity=quantity)
